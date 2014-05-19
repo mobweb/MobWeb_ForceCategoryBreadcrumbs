@@ -1,0 +1,6 @@
+app/code/local/MobWeb/ForceCategoryBreadcrumbs app/code/local/MobWeb/ForceCategoryBreadcrumbs/
+
+app/etc/modules/MobWeb_ForceCategoryBreadcrumbs.xml app/etc/modules/MobWeb_ForceCategoryBreadcrumbs.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
